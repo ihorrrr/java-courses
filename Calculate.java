@@ -1,5 +1,5 @@
 public class Calculate { 
     public static void main(String[] args) { 
-        System.out.println(" Right ");
+        System.out.println(" Right 1 ");
     } 
 }
