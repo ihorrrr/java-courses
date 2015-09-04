@@ -4,7 +4,7 @@ public class Cl {
   
   // суміруєм аргументи
   public void add(int ... params){
-  for(Integer (param : params)){
+  for(Integer param : params){
       this.result += param;
     }
   }
@@ -12,10 +12,10 @@ public class Cl {
   // получаєм результат
   public int getResult(){
      return this.result;
-	 )
+	 }
 	
   // очистить результат вичеслення	
-  public void clearResult(){
+  public void cleanResult(){
       this.result = 0;
   }	 
   
